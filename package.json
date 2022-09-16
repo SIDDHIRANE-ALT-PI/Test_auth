@@ -1,0 +1,30 @@
+{
+  "name": "complete_authentication",
+  "version": "1.0.0",
+  "description": "complete authentication system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "const",
+    "require",
+    "get",
+    "post",
+    "console",
+    "set"
+  ],
+  "author": "siddhi and aishwarya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
+  }
+}
